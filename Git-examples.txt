@@ -1,0 +1,27 @@
+1. Create a new repository on GitHub
+  git init
+  touch README.md
+  git add README.md
+  git commit -m "first commit"
+  git branch -M main
+  git remote add origin git@github.com:tai-lequy/test.git
+  git push -u origin main
+
+2. Change a file on website, update your local repository
+  git pull
+  
+3. Create a new branch on local then update to remote repository
+
+  git checkout -b newbr
+  git add newfile.txt
+  git commit "new file"
+  git push -u origin newbr
+
+4. View branch
+ git branch or git branch -a (all local and remote), branch -r (only remote)
+
+5.Clone a github folder
+ git clone github newfolder
+
+
+  

@@ -1,0 +1,9 @@
+1.Open git batch
+$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+2. Press Enter (Accepts the default file location)
+3. Click Enter Twice (Or set SSH key passphrases)
+4. The key generate: ~/.ssh/id_rsa.pub
+5. Github website user side, Under user setting, SSH and GPG keys => New SSH key
+6. Test ssh connection: ssh -vT git@github.com
+
+Create file: touch readme.md
