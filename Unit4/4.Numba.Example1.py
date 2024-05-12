@@ -2,6 +2,7 @@ import time
 from numba import jit
 import numpy as np
 @jit(nopython=True)
+#This compilation mode produces the highest performance code
 def sum2dimensional(np_array):
     array_rows, array_columns = np_array.shape
     result = 0.0

@@ -14,5 +14,6 @@ def main():
     text_book.print_book_title(book_title)
     # calling print_book_pages_number method
     text_book.print_book_pages_number()
+    #print("The number of pages is: ",text_book.pages_number)
 if __name__ == '__main__':
     main()

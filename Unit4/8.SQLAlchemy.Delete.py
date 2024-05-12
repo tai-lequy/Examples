@@ -10,7 +10,7 @@ def main():
     connection = engine.connect()
     # get actor table definition
     actor_table = db.Table("actor", meta_data, autoload=True,autoload_with=engine)
-    # set delete sql statement. delete the record where id is equal to 1
+    # set delete sql statement. delete the record where id is equal to 2
     sql_query = db.delete(actor_table).where(actor_table.columns.id == 2)
     results = connection.execute(sql_query)
 if __name__ == '__main__':

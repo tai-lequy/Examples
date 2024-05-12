@@ -8,7 +8,7 @@ def main():
     meta_data = db.MetaData()
     # get connection object
     connection = engine.connect()
-    # get actor table definitio
+    # get actor table definition
     actor_table = db.Table("actor", meta_data, autoload=True, autoload_with=engine)
     # set the insert statement
     sql_query = db.insert(actor_table)

@@ -18,7 +18,6 @@ def scope_testing():
     global_scope()
     print("After global scope test:", spam)
 
-
 def main():
     scope_testing()
     print("In global scope:", spam)

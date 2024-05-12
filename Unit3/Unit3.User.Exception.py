@@ -1,7 +1,7 @@
 class MyException(Exception):
-    pass
-    #def __init___(self, exception_parameter, exception_message):
-    #    super().__init__(self, exception_parameter, exception_message)
+    #pass
+    def __init___(self, exception_parameter, exception_message):
+        super().__init__(self, exception_parameter, exception_message)
 
 def main():
     programming_language = ["JavaScript", "Python", "R", "Ruby", "PHP", "Java",
