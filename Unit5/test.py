@@ -11,7 +11,7 @@ class MathOperations(object):
         '''
         result = number_1 + number_2
         return result
-#Changes in Pycharm
+#Did some changes
     def math_subtraction(self, number_1, number_2):
         '''
         provide math subtraction
